@@ -1,0 +1,41 @@
+{
+  "name": "unique-network-asset-gating-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for Unique Network wallet verification and NFT-based perks",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "setup": "node scripts/setup.js",
+    "get-ids": "node scripts/getDiscordIds.js",
+    "register-commands": "node scripts/registerCommands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@unique-nft/sdk": "^0.1.0",
+    "@polkadot/api": "^16.4.1",
+    "@polkadot/keyring": "^13.5.3",
+    "@polkadot/types": "^16.4.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.3",
+    "sqlite3": "^5.1.6",
+    "mongodb": "^6.3.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "unique-network",
+    "nft",
+    "verification",
+    "blockchain"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+} 
